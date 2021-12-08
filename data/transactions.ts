@@ -5,6 +5,7 @@ const chance = new Chance();
 const generateUsers = () => {
   const numberOfUsers = 5;
   const users = [];
+
   for (let i = 0; i < numberOfUsers; i++) {
     const user = {
       id: nanoid(10),
@@ -12,6 +13,7 @@ const generateUsers = () => {
     };
     users.push(user);
   }
+
   return users;
 };
 
@@ -31,6 +33,7 @@ const generateTransactions = () => {
     };
     transactions.push(transaction);
   }
+  
   return transactions;
 };
 
