@@ -1,4 +1,4 @@
-# Award point calculator
+# Award points calculator
 
 This application is created in a React framework [Next.js](https://nextjs.org/). I've also created a simple API for generating random transactions.
 
