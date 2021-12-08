@@ -1,10 +1,12 @@
-This is a award points calculator created in a React framework [Next.js](https://nextjs.org/). I've also created a simple API for generating random transactions.
+# Award point calculator
 
-Main logic is in logic/getAwards.ts file.
+This application is created in a React framework [Next.js](https://nextjs.org/). I've also created a simple API for generating random transactions.
 
-For fetching transactions I've created useTransactions.ts hook in apiCalls
+Main logic is in **logic/getRewards.ts** file.
 
-## Getting Started
+For fetching transactions I've created **useTransactions.ts** hook in **apiCalls** folder.
+
+### Getting Started
 
 First, run the development server:
 
